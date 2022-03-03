@@ -8,7 +8,7 @@ info:
     email: architagarwal2002@gmail.com
 
 servers:
-  - url: "{protocol}://localhost:3000/api/{versions}"
+  - url: "{protocol}://{host}/api/{versions}"
     variables:
       versions:
         default: v1
@@ -20,6 +20,11 @@ servers:
         enum:
           - http
           - https
+      host:
+       default: ecommstoreapp.herokuapp.com
+      enum:
+       - ecommstoreapp.herokuapp.com
+       - localhost:3000     
 
 components:
   securitySchemes:
