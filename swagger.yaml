@@ -22,7 +22,7 @@ servers:
           - https
       host:
        default: ecommstoreapp.herokuapp.com
-      enum:
+       enum:
        - ecommstoreapp.herokuapp.com
        - localhost:3000     
 
