@@ -16,7 +16,7 @@ servers:
           - v1
           - v2
       protocol:
-        default: http
+        default: https
         enum:
           - http
           - https
