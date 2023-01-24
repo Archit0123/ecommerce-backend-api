@@ -12,7 +12,9 @@ Features:
 - Admin can manage Users,products and orders.
 
 
-
+Note-: 1.) To try out the api make sure the protocol variable is set to "https"
+       2.) Wherever optional, if you do not wish to send a particular value then make sure to uncheck the "Send empty value" checkbox otherwise
+            it will show error
 
 
 
