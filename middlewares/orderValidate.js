@@ -24,6 +24,7 @@ exports.validateOrder = BigPromise(async (req, res, next) => {
   console.log(`stock validation result ${isInStock}`);
   return next();
 });
+
 /*Remeber that array fuuntions like forEach and find use a callback function and thus if i had used those for the above
 purpose then it results in weird bugs due to await keyword using the async of the callback function rather than the top level 
 async. This is generally fine but for our above purpose it was resulting in not terminating the program upon error rather the

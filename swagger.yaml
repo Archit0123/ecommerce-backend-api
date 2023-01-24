@@ -21,9 +21,9 @@ servers:
           - http
           - https
       host:
-        default: ecommstoreapp.herokuapp.com
+        default: ecommerce-backend-api-uf8a.onrender.com
         enum:
-         - ecommstoreapp.herokuapp.com
+         - ecommerce-backend-api-uf8a.onrender.com
          - localhost:3000     
 
 components:
